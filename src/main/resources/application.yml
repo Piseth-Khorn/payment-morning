@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: payment-morning
+server:
+  servlet:
+    context-path: /api
+  port: 8083
+  shutdown: graceful
+eureka:
+  client:
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8081/eureka
