@@ -1,0 +1,8 @@
+{
+  "realm": "signature-identification",
+  "auth-server-url" : "http://localhost:8080",
+  "resource" : "signature-profile",
+  "credentials": {
+    "secret": "5n5fNIq1caEbfApXBC37zfEQy4rpIIZT"
+  }
+}
